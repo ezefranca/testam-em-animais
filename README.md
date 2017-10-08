@@ -1,9 +1,11 @@
 # Testam ou não testam em animais
 Webservice da lista de empresas e produtos que efetuam ou não testes em animais, do portal [Vista-se](https://vista-se.com.br). 
 
-<img src="https://raw.githubusercontent.com/ezefranca/testam-em-animais/master/banner.png"/>
+<img src="https://raw.githubusercontent.com/ezefranca/testam-em-animais/master/views/banner.png"/>
 
 ## Utilizando
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ```bash
 git clone https://github.com/ezefranca/testam-em-animais.git
