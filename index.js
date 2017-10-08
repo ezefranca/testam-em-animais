@@ -10,7 +10,7 @@ app.get('/testam/', function(request, response) {
 })
 
 app.get('/naoTestam/', function(request, response) {
-  testamEmAnimais(request, response);
+  naoTestamEmAnimais(request, response);
 })
 
 app.listen(app.get('port'), function() {
