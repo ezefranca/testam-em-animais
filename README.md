@@ -1,39 +1,37 @@
-# node-js-getting-started
+# Testam ou não testam em animais
+Webservice da lista de empresas e produtos que efetuam ou não testes em animais, do portal [Vista-se](https://vista-se.com.br). 
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+<img src="https://raw.githubusercontent.com/ezefranca/testam-em-animais/master/banner.png"/>
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+## Utilizando
 
-## Running Locally
-
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
-
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
+```bash
+git clone https://github.com/ezefranca/testam-em-animais.git
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+Instalar a dependencia:
 
-## Deploying to Heroku
-
+```bash
+npm install lista-impropria-api --save
 ```
-$ heroku create
-$ git push heroku master
-$ heroku open
+
+Em seguida basta executar o `index.js`:
+
+```bash
+node index.js
 ```
-or
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+Abra seu navegador em [localhost:8080](http://localhost:8080/) e execute os metodos:
 
-## Documentation
+### Testam
+[localhost:8080/testam](http://localhost:8080/testam)
 
-For more information about using Node.js on Heroku, see these Dev Center articles:
 
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+### Não Testam
+[localhost:8080/naoTestam](http://localhost:8080/naoTestam)
+
+## Disclaimer
+
+Isso foi extraido do site através de um crawler, além disso não sou desenvolvedor javascript.
+
+
