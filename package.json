@@ -1,0 +1,32 @@
+{
+  "name": "testam-em-animais",
+  "version": "1.0.0",
+  "description": "webservice que retorna empresas e produtos que testam e nao testam em animais",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezefranca/testam-em-animais.git"
+  },
+  "keywords": [
+    "vegan",
+    "crueldade",
+    "animal",
+    "teste",
+    "em",
+    "animais",
+    "vegano",
+    "veganismo"
+  ],
+  "author": "@ezefranca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezefranca/testam-em-animais/issues"
+  },
+  "homepage": "https://github.com/ezefranca/testam-em-animais#readme",
+  "dependencies": {
+    "lista-impropria-api": "^1.1.0"
+  }
+}
