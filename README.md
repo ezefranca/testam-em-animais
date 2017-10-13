@@ -26,11 +26,14 @@ node index.js
 Abra seu navegador em [localhost:8080](http://localhost:8080/) e execute os metodos:
 
 ### Testam
-[localhost:8080/testam](http://localhost:8080/testam)
-
+```bash
+GET /testam
+```
 
 ### Não Testam
-[localhost:8080/naoTestam](http://localhost:8080/naoTestam)
+```bash
+GET /naoTestam
+```
 
 ## Disclaimer
 
