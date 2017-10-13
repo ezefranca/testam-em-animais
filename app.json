@@ -1,8 +1,8 @@
 {
-  "name": "Start on Heroku: Node.js",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "name": "Testam em animais",
+  "description": "Webservice da lista de empresas e produtos que efetuam testes em animais do portal Vista-se.",
+  "repository": "https://github.com/ezefranca/testam-em-animais",
+  "logo": "https://raw.githubusercontent.com/ezefranca/testam-em-animais/master/views/banner.png",
   "keywords": ["node", "express", "heroku"],
   "image": "heroku/nodejs"
 }
